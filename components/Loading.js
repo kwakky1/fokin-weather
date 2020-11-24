@@ -1,13 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function Loading() {
+const Loading = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>오늘의 미친 날씨를 받아보자</Text>
         </View>
     );
 }
+
+export default Loading;
 
 const styles = StyleSheet.create({
     container : {
